@@ -1,23 +1,21 @@
 # Hermes A2P Compliance Static Site
 
-Deploy this folder as a static site using GitHub Pages, Vercel, or Netlify.
+This folder is published through GitHub Pages.
 
-Required public URLs after deployment:
+Live public URLs:
 
-- `https://[your-domain]/hermes-opt-in.html`
-- `https://[your-domain]/hermes-privacy-policy.html`
-- `https://[your-domain]/hermes-terms.html`
+- `https://hackk-cyte.github.io/hermes-a2p-compliance-20260522/hermes-opt-in.html`
+- `https://hackk-cyte.github.io/hermes-a2p-compliance-20260522/hermes-privacy-policy.html`
+- `https://hackk-cyte.github.io/hermes-a2p-compliance-20260522/hermes-terms.html`
 
-If the hosting provider supports extensionless routes, these can also be mapped to:
+GitHub repository:
 
-- `https://[your-domain]/hermes-opt-in`
-- `https://[your-domain]/hermes-privacy-policy`
-- `https://[your-domain]/hermes-terms`
+- `https://github.com/Hackk-cyte/hermes-a2p-compliance-20260522`
 
 Twilio Message Flow / Call to Action text:
 
 ```text
-Consent is collected via a private internal configuration dashboard accessible only to the system owner, Josh Hackett. The owner manually enters their mobile phone number and checks a mandatory disclosure box to opt into automated alerts. A live, public-facing representation of this consent flow, alongside full program terms, can be verified directly at: https://[your-domain]/hermes-opt-in.html
+Consent is collected via a private internal configuration dashboard accessible only to the system owner, Josh Hackett. The owner manually enters their mobile phone number and checks a mandatory disclosure box to opt into automated alerts. A live, public-facing representation of this consent flow, alongside full program terms, can be verified directly at: https://hackk-cyte.github.io/hermes-a2p-compliance-20260522/hermes-opt-in.html
 ```
 
 Twilio content checkboxes:
@@ -26,4 +24,3 @@ Twilio content checkboxes:
 - Phone numbers: unchecked
 - Lending or loan arrangement: unchecked
 - Age-gated content: unchecked
-
